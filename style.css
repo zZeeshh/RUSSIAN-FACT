@@ -1,0 +1,79 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+a:hover {
+  color: rgb(173, 197, 255);
+  font-weight: bold;
+}
+
+a:hover::after{
+  content: "🔗";
+}
+
+body > header{
+  background-color: rgb(126, 135, 156);
+  padding-top: 30px;
+}
+
+header h1{
+  text-align: center;
+  color: white;
+}
+
+header p{
+  text-align: center;
+  color: white;
+}
+
+ul{
+  color:  rgb(126, 135, 156);
+}
+
+nav{
+  background-color: rgb(80, 80, 97);
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  padding: 7px;
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+}
+
+main{
+  display: flex;
+  margin: 40px;
+  gap: 20px;
+}
+
+#content{
+  /* flex 3 artinya pembagian luasnya 75% */
+  flex: 3;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+aside{
+  flex: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+h2{
+  text-align: center;
+}
+
+figure{
+  text-align: center;
+}
+
+article{
+  margin: 20px;
+}
